@@ -1,6 +1,6 @@
 {
-  "name": "@authlibs/fastify-authy",
-  "version": "0.1.4",
+  "name": "@authlibs/fastify-auther",
+  "version": "0.1.5",
   "description": "Fastify plugin for JWT verification and Prisma-based RBAC authorization",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

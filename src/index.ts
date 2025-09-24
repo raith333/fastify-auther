@@ -70,4 +70,5 @@ const plugin: FastifyPluginAsync<FastifyAuthzOptions> = async (fastify, opts) =>
   fastify.decorate("auth", { verify, requirePermission });
 };
 
-export default fp(plugin, { name: "fastify-authz" });
+// 🚀 Important: register under the correct name
+export default fp(plugin, { name: "fastify-auther" });
